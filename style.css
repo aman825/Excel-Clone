@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.menu-container{
+    border: 1px solid red;
+    height: 3rem;
+}
+.formula-container{
+    border: 1px solid red;
+    height: 2rem;
+}
+.grid-container{
+    border: 1px solid red;
+    height: calc(100vh - (3rem + 2rem + 2rem));
+    
+}
+.sheets-container{
+    border: 1px solid red;
+    height: 2rem;
+    display: flex;
+}
+.add-sheet_btn-container{
+    width: 3rem;
+    border: 1px solid;
+    height: 100%;
+
+}
+.sheet-list{
+    width: calc(100vw - 3rem);
+    border: 1px solid;
+}
+.box{
+    height: 2rem;
+    width: 2rem;
+    border: 1px solid;
+    text-align: center;
+}
